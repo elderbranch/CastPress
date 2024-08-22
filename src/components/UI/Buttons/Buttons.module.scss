@@ -1,0 +1,41 @@
+.white,
+.red {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 8px 15px;
+  gap: 10px;
+}
+
+.white {
+  background-color: transparent;
+  border: 1px solid $main-violet;
+  color: $main-violet;
+
+  transition: all 0.1s;
+
+  &:hover {
+    background-color: $main-violet;
+  }
+}
+
+.grey {
+  background-color: #F5F5F7;
+  padding: 7px 14px;
+  border-radius: 3px;
+  border: none;
+  color: $main-violet;
+  transition: all 0.1s;
+  height: 100%;
+
+  &:hover {
+    background-color: rgb(216, 216, 214);
+    scale: 1.05;
+  }
+}
